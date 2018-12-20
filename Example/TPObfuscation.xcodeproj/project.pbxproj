@@ -41,6 +41,13 @@
 		8BD16B5E88A61DF1156ABC8A /* Pods-TPObfuscation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPObfuscation_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPObfuscation_Tests/Pods-TPObfuscation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A5E72B6FE22BEDF1EC91DDCD /* Pods-TPObfuscation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPObfuscation_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPObfuscation_Example/Pods-TPObfuscation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D41C113321CBD04300B1A81E /* String+Obfuscation_Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Obfuscation_Spec.swift"; sourceTree = "<group>"; };
+		D41C113721CBD88E00B1A81E /* .slather.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .slather.yml; path = ../../TPSVG/.slather.yml; sourceTree = "<group>"; };
+		D41C113821CBD88E00B1A81E /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; name = ".swift-version"; path = "../../TPSVG/.swift-version"; sourceTree = "<group>"; };
+		D41C113921CBD88E00B1A81E /* .jazzy.yaml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .jazzy.yaml; path = ../../TPSVG/.jazzy.yaml; sourceTree = "<group>"; };
+		D41C113A21CBD88E00B1A81E /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .swiftlint.yml; path = ../../TPSVG/.swiftlint.yml; sourceTree = "<group>"; };
+		D41C113B21CBD88E00B1A81E /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .travis.yml; path = ../../TPSVG/.travis.yml; sourceTree = "<group>"; };
+		D41C113C21CBD88E00B1A81E /* .codebeatignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .codebeatignore; path = ../../TPSVG/.codebeatignore; sourceTree = "<group>"; };
+		D41C113D21CBD88E00B1A81E /* TPSVG.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = TPSVG.podspec; path = ../../TPSVG/TPSVG.podspec; sourceTree = "<group>"; };
 		E082D8B5B4946DB2F851D0DB /* Pods_TPObfuscation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPObfuscation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3050C4FE63ACF2885A8EB0D /* TPObfuscation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TPObfuscation.podspec; path = ../TPObfuscation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
@@ -135,6 +142,13 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				D41C113C21CBD88E00B1A81E /* .codebeatignore */,
+				D41C113921CBD88E00B1A81E /* .jazzy.yaml */,
+				D41C113721CBD88E00B1A81E /* .slather.yml */,
+				D41C113821CBD88E00B1A81E /* .swift-version */,
+				D41C113A21CBD88E00B1A81E /* .swiftlint.yml */,
+				D41C113B21CBD88E00B1A81E /* .travis.yml */,
+				D41C113D21CBD88E00B1A81E /* TPSVG.podspec */,
 				F3050C4FE63ACF2885A8EB0D /* TPObfuscation.podspec */,
 				140C2A0840B8E26C4EC8503A /* README.md */,
 				494B3D2C05BE0E0B4E865393 /* LICENSE */,

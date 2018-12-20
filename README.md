@@ -24,8 +24,8 @@
 		<img 
 src="https://travis-ci.org/Techprimate/TPObfuscation.svg?branch=master&style=flat-square" alt="Travis">
 	</a>
-	<a href="https://codebeat.co/projects/github-com-techprimate-TPObfuscation-master">
-		<img src="https://codebeat.co/badges/3d242e57-5f87-433d-b5ae-715d9d0c2c25" alt="codebeat">
+	<a href="https://codebeat.co/projects/github-com-techprimate-tpobfuscation-master">
+		<img src="https://codebeat.co/badges/f56c8eca-c861-4a19-b4e4-84b77540c4ab"" alt="codebeat">
 	</a>
 	<a href="https://bettercodehub.com/results/Techprimate/TPObfuscation">
 		<img src="https://bettercodehub.com/edge/badge/Techprimate/TPObfuscation" alt="bettercodehub">
