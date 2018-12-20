@@ -1,0 +1,33 @@
+os: osx
+osx_image: xcode10.1
+cache:
+- bundler
+- cocoapods
+env:
+  global:
+  - WORKSPACE=Example/TPObfuscation.xcworkspace
+  - PROJECT=Example/TPObfuscation.xcodeproj
+  - TEST_FRAMEWORK_SCHEME="TPObfuscation-Example"
+  - EXAMPLE_SCHEME="TPObfuscation-Example"
+  - SOURCE_FOLDER="Source"
+  matrix:
+  - DESTINATION="OS=11.4,name=iPhone X"
+  - DESTINATION="OS=12.1,name=iPhone XS"
+install:
+- bundle install
+- bundle exec pod repo update
+- bundle exec pod install --project-directory=Example
+script:
+- set -o pipefail
+- xcodebuild -version
+- xcodebuild -showsdks
+- xcodebuild -list
+- xcodebuild -workspace "$WORKSPACE" -scheme "$TEST_FRAMEWORK_SCHEME" -sdk iphonesimulator -destination "$DESTINATION" -configuration Debug -derivedDataPath ${TRAVIS_BUILD_DIR}/derived_data -enableCodeCoverage YES ONLY_ACTIVE_ARCH=YES GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES build test | xcpretty
+- xcodebuild -workspace "$WORKSPACE" -scheme "$EXAMPLE_SCHEME" -sdk iphonesimulator -destination "$DESTINATION" -configuration Debug -derivedDataPath ${TRAVIS_BUILD_DIR}/derived_data ONLY_ACTIVE_ARCH=YES build | xcpretty
+- pod lib lint --allow-warnings
+after_success:
+- slather coverage -t --build-directory ${TRAVIS_BUILD_DIR}/derived_data --verbose
+- bash <(curl -s https://codecov.io/bash) -f cobertura.xml -X coveragepy -X gcov -X xcode
+notifications:
+  slack:
+    secure: HUwpMEydmXMuxyJGTC5cidOm/0urJ0G73K7h9tHnYzV9bTYtLIfoDPx7D27Fa33F96xKnkoCs4NMu5x8yoxN0LlHnZl8GPhaf6z+jF02TQWr5HrIuPo1pNr0pBsVcqpYONpu9lMQViT/SGvi4eAOeEtPaJuv1mWs5ThgB1zhyEngY1mzK6/cQd3B4SS2v7vTrTkNE4IeNhPQEeWdd9B5VhRGCyTdrC7amAvRpVjta3R0iPNZ4q0XvvdE+B2UaDzReKvHrpgAVd5WLsYJKLTYFS2dVuR61Lnb4qqQ5+2z8GUXTuh/T6kKop4CHRcKbfKYTQYZrnHYT27zU1aJ34b0KanHRjrlovE3AD7Kq15vLzkkZaGvoUEvVKOMa02e6wYARlnBXLZRq72FJPU4N+M8YuPmsetPjjn8X4oS2uC5I/iE9VwEXTdIyA1IKUKLVFUjGNH6JmL8/G8NIX22EJfFwdtOBHPJUhQj3W21pOjfHDATTOm10KiKMj+ixwiXtRHU96spozmg1TD7dvnYKCj1b9oJrNOjKGlpcW1flz1ZPTISkw2bblimVLBFkZ/kqMcMtyhaa1z5Qwne5hRN40Uz0u2HkAQrnB7FpYJOIolKb+z+CTS9c4jHvQLrPc6RobREmnVH8ob3S7XP8GcPYZGnlGhcXJhv8GQ8nV++qoGP5R4=

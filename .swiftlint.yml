@@ -1,0 +1,21 @@
+---
+disabled_rules:
+excluded:
+  - Carthage
+  - Pods
+force_cast: warning
+force_try:
+  severity: warning
+identifier_name:
+  excluded:
+    - id
+    - x
+    - y
+    - i
+  min_length:
+    error: 2
+    warning: 2
+included:
+  - ../Source
+  - ../Example/TPObfuscation
+reporter: xcode

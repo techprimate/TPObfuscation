@@ -1,0 +1,8 @@
+author: techprimate GmbH & Co. KG
+author_url: https://www.github.com/techprimate-phil
+github_url: https://www.github.com/techprimate/TPObfuscation
+root_url: https://techprimate.github.io/TPObfuscation/
+module: TPObfuscation
+output: docs
+theme: fullwidth
+xcodebuild_arguments: [-workspace, 'Example/TPObfuscation.xcworkspace', -scheme, 'TPObfuscation-Example', -sdk, 'iphonesimulator' ]

@@ -1,0 +1,7 @@
+coverage_service: cobertura_xml
+xcodeproj: Example/TPObfuscation.xcodeproj
+scheme: TPObfuscation-Example
+workspace: Example/TPObfuscation.xcworkspace
+source_directory: Source
+configuration: Debug
+binary_basename: TPObfuscation
