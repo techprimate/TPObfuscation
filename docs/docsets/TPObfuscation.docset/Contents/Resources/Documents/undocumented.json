@@ -1,677 +1,677 @@
 {
   "warnings": [
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 11,
       "symbol": "TPObStr",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 14,
       "symbol": "String.space",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 15,
       "symbol": "String.exclamation",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 16,
       "symbol": "String.quote",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 17,
       "symbol": "String.hash",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 18,
       "symbol": "String.dollar",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 19,
       "symbol": "String.percent",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 20,
       "symbol": "String.and",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 21,
       "symbol": "String.apostrophe",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 22,
       "symbol": "String.openparantheses",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 23,
       "symbol": "String.closeparantheses",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 24,
       "symbol": "String.asteriks",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 25,
       "symbol": "String.plus",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 26,
       "symbol": "String.comma",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 27,
       "symbol": "String.minus",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 28,
       "symbol": "String.dot",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 29,
       "symbol": "String.slash",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 31,
       "symbol": "String.zero",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 32,
       "symbol": "String.one",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 33,
       "symbol": "String.two",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 34,
       "symbol": "String.three",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 35,
       "symbol": "String.four",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 36,
       "symbol": "String.five",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 37,
       "symbol": "String.six",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 38,
       "symbol": "String.seven",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 39,
       "symbol": "String.eight",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 40,
       "symbol": "String.nine",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 42,
       "symbol": "String.colon",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 43,
       "symbol": "String.semicolon",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 44,
       "symbol": "String.lessthan",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 45,
       "symbol": "String.equal",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 46,
       "symbol": "String.greaterthan",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 47,
       "symbol": "String.question",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 48,
       "symbol": "String.at",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 50,
       "symbol": "String.A",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 51,
       "symbol": "String.B",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 52,
       "symbol": "String.C",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 53,
       "symbol": "String.D",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 54,
       "symbol": "String.E",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 55,
       "symbol": "String.F",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 56,
       "symbol": "String.G",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 57,
       "symbol": "String.H",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 58,
       "symbol": "String.I",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 59,
       "symbol": "String.J",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 60,
       "symbol": "String.K",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 61,
       "symbol": "String.L",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 62,
       "symbol": "String.M",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 63,
       "symbol": "String.N",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 64,
       "symbol": "String.O",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 65,
       "symbol": "String.P",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 66,
       "symbol": "String.Q",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 67,
       "symbol": "String.R",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 68,
       "symbol": "String.S",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 69,
       "symbol": "String.T",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 70,
       "symbol": "String.U",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 71,
       "symbol": "String.V",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 72,
       "symbol": "String.W",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 73,
       "symbol": "String.X",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 74,
       "symbol": "String.Y",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 75,
       "symbol": "String.Z",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 77,
       "symbol": "String.openbracket",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 78,
       "symbol": "String.backslash",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 79,
       "symbol": "String.closebracket",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 80,
       "symbol": "String.circumflex",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 81,
       "symbol": "String.underscore",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 82,
       "symbol": "String.gravis",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 84,
       "symbol": "String.a",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 85,
       "symbol": "String.b",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 86,
       "symbol": "String.c",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 87,
       "symbol": "String.d",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 88,
       "symbol": "String.e",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 89,
       "symbol": "String.f",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 90,
       "symbol": "String.g",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 91,
       "symbol": "String.h",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 92,
       "symbol": "String.i",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 93,
       "symbol": "String.j",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 94,
       "symbol": "String.k",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 95,
       "symbol": "String.l",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 96,
       "symbol": "String.m",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 97,
       "symbol": "String.n",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 98,
       "symbol": "String.o",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 99,
       "symbol": "String.p",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 100,
       "symbol": "String.q",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 101,
       "symbol": "String.r",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 102,
       "symbol": "String.s",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 103,
       "symbol": "String.t",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 104,
       "symbol": "String.u",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 105,
       "symbol": "String.v",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 106,
       "symbol": "String.w",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 107,
       "symbol": "String.x",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 108,
       "symbol": "String.y",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 109,
       "symbol": "String.z",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 111,
       "symbol": "String.curlyopenbracket",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 112,
       "symbol": "String.pipe",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 113,
       "symbol": "String.curlyclosebracket",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Developer/TPObfuscation/Source/Classes/String+Obfuscation.swift",
+      "file": "/Users/Philip/Desktop/techprimate/TPObfuscation/Source/Classes/String+Obfuscation.swift",
       "line": 114,
       "symbol": "String.lambda",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Volumes/Developer/TPObfuscation"
+  "source_directory": "/Users/Philip/Desktop/techprimate/TPObfuscation"
 }
