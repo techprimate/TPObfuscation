@@ -8,6 +8,8 @@
 
 // swiftlint:disable identifier_name
 
+import Foundation
+
 public let TPObStr = String()
 public extension String {
 
