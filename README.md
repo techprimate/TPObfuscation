@@ -127,7 +127,14 @@ Run `carthage update` to build the framework and drag the built `TPObfuscation.f
 
 ### Swift Package Manager
 
-TODO: Add description for Swift Package Manager installation
+[SwiftPackageManager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
+
+The Package Manager is included in Swift 3.0 and above.
+
+In Xcode's menubar choose `File > Swift Packages > Add Package Dependency` to add `TPObfuscation` to your target using:
+```ogdl
+https://github.com/techprimate/TPObfuscation.git
+```
 
 ### Manual Installation
 
