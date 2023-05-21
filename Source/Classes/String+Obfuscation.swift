@@ -118,3 +118,5 @@ public extension String {
 private func UC(_ value: Int) -> String {
     return String(Character(UnicodeScalar(value)!))
 }
+
+// swiftlint:enable identifier_name

@@ -1,22 +1,15 @@
 PODS:
-  - SwiftLint (0.52.2)
-  - TPObfuscation (1.1.0):
-    - SwiftLint
+  - TPObfuscation (1.1.0)
 
 DEPENDENCIES:
   - TPObfuscation (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - SwiftLint
 
 EXTERNAL SOURCES:
   TPObfuscation:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftLint: 1ac76dac888ca05cb0cf24d0c85887ec1209961d
-  TPObfuscation: 0a95ebc9009b38b940e790d7d4edf4c61967d28e
+  TPObfuscation: 7ae451cfa54d577842238574b19c18bccc24fbdd
 
 PODFILE CHECKSUM: 25f0cbb4ac2a3550ce0ffedd219bddf8de90faa6
 
