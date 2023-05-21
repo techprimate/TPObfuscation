@@ -20,15 +20,8 @@
 </p>
 
 <p align="center">
-	<a href="https://travis-ci.org/Techprimate/TPObfuscation">
-		<img 
-src="https://travis-ci.org/Techprimate/TPObfuscation.svg?branch=master&style=flat-square" alt="Travis">
-	</a>
 	<a href="https://codebeat.co/projects/github-com-techprimate-tpobfuscation-master">
 		<img src="https://codebeat.co/badges/f56c8eca-c861-4a19-b4e4-84b77540c4ab"" alt="codebeat">
-	</a>
-	<a href="https://bettercodehub.com/results/Techprimate/TPObfuscation">
-		<img src="https://bettercodehub.com/edge/badge/Techprimate/TPObfuscation" alt="bettercodehub">
 	</a>
 	<a href="https://codecov.io/gh/techprimate/TPObfuscation">
 		<img src="https://img.shields.io/codecov/c/github/techprimate/TPObfuscation.svg?style=flat-square" alt="codecov">
@@ -58,8 +51,6 @@ src="https://travis-ci.org/Techprimate/TPObfuscation.svg?branch=master&style=fla
 
 ## Communication
 
-- If you **need help**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/TPObfuscation). (Tag 'TPObfuscation' or mention it in title)
-- If you'd like to **ask a general question**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/TPObfuscation).
 - If you **found a bug**, open an issue.
 - If you **have a feature request**, open an issue.
 - If you **want to contribute**, submit a pull request.
@@ -70,15 +61,29 @@ To run the example project, run `pod try TPObfuscation`
 
 ## Usage
 
-TODO: Usage description
+Simply replace any string, e.g.
+
+```swift
+let foo = "super-secret-api-key"
+```
+
+with the utility class:
+
+```swift
+let foo = TPObStr.s.u.p.e.r.dash.s.e.c.r.e.t.dash.a.p.i.dash.k.e.y
+```
 
 ## Installation
 
-### Requirements
+### Swift Package Manager
 
-| Language  | Branch | Pod version | Xcode version | iOS version |
-| --------- | ------ | ----------- | ------------- | ----------- |
-| Swift 4.2 | [master](https://github.com/techprimate/TPObfuscation/tree/master) | >= 1.0.x | Xcode 10+ | iOS 8.3+ |
+Once you have your Swift package set up, adding TPObfuscation as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/techprimate/TPObfuscation", .upToNextMajor(from: "1.1.0"))
+]
+```
 
 ### CocoaPods
 
@@ -120,18 +125,10 @@ $ brew install carthage
 To integrate TPObfuscation into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "techprimate/TPObfuscation" ~> 1.3
+github "techprimate/TPObfuscation" ~> 1.1
 ```
 
 Run `carthage update` to build the framework and drag the built `TPObfuscation.framework` into your Xcode project.
-
-### Swift Package Manager
-
-TODO: Add description for Swift Package Manager installation
-
-### Manual Installation
-
-TODO: Add description for manual installation
 
 ## Apps using TPObfuscation
 
@@ -140,7 +137,7 @@ We are always curious to see who is using our projects :)
 
 ## Credits
 
-TPObfuscation is created and maintained by Philip Niedertscheider, owned by [techprimate](https://www.github.com/techprimate).
+TPObfuscation is created and maintained by [Philip Niedertscheider](https://github.com/philprime), owned by [techprimate](https://www.github.com/techprimate).
 
 <p align="center">
 	<a href="https://www.techprimate.com">
@@ -156,7 +153,6 @@ TPObfuscation is created and maintained by Philip Niedertscheider, owned by [tec
 		<img src="https://img.shields.io/badge/facebook-@techprimate-blue.svg?style=flat-square" alt="facebook">
 	</a>
 </p>
-
 
 ### Contributors
 
