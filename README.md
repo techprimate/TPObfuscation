@@ -6,16 +6,10 @@
 	<a href="https://github.com/Carthage/Carthage">
 		<img src="https://img.shields.io/badge/language-Swift-orange.svg?style=flat-square" alt="Swift"/>
 	</a>
-	<img src="https://img.shields.io/cocoapods/v/TPObfuscation.svg?style=flat-square" alt="Cocoapods"/>
+	<img src="https://img.shields.io/cocoapods/v/TPObfuscation?style=flat-square" alt="Cocoapods"/>
 	<img src="https://img.shields.io/badge/Carthage-compatible-blue.svg?style=flat-square" alt="Carthage"/>
 	<a href="http://cocoapods.org/pods/TPObfuscation">
-		<img src="https://img.shields.io/cocoapods/p/TPObfuscation.svg?style=flat-square" alt="iOS"/>
-	</a>
-	<a href="http://cocoapods.org/pods/TPObfuscation">
 		<img src="https://img.shields.io/cocoapods/l/TPObfuscation.svg?style=flat-square" alt="License"/>
-	</a>
-	<a href="http://cocoapods.org/pods/TPObfuscation">
-		<img src="https://img.shields.io/cocoapods/dt/TPObfuscation.svg?style=flat-square" alt="Downloads"/>
 	</a>
 </p>
 
