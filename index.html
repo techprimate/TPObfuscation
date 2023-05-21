@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TPObfuscation  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="TPObfuscation  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          TPObfuscation 1.1.1 Docs
+        </a>
+         (0% documented)
+      </p>
+    
+      <div class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </div>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://www.github.com/techprimate/TPObfuscation">
+            <img class="header-icon" src="img/gh.png" alt="GitHub"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">TPObfuscation Reference</a>
+      <img class="carat" src="img/carat.png" alt=""/>
+      TPObfuscation  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            
+            <p align="center">
+    <img src="https://raw.githubusercontent.com/techprimate/TPObfuscation/master/res/header.png" alt="TPObfuscation">
+</p>
+
+<p align="center">
+    <a href="https://github.com/Carthage/Carthage">
+        <img src="https://img.shields.io/badge/language-Swift-orange.svg?style=flat-square" alt="Swift"/>
+    </a>
+    <img src="https://img.shields.io/cocoapods/v/TPObfuscation.svg?style=flat-square" alt="Cocoapods"/>
+    <img src="https://img.shields.io/badge/Carthage-compatible-blue.svg?style=flat-square" alt="Carthage"/>
+    <a href="http://cocoapods.org/pods/TPObfuscation">
+        <img src="https://img.shields.io/cocoapods/p/TPObfuscation.svg?style=flat-square" alt="iOS"/>
+    </a>
+    <a href="http://cocoapods.org/pods/TPObfuscation">
+        <img src="https://img.shields.io/cocoapods/l/TPObfuscation.svg?style=flat-square" alt="License"/>
+    </a>
+    <a href="http://cocoapods.org/pods/TPObfuscation">
+        <img src="https://img.shields.io/cocoapods/dt/TPObfuscation.svg?style=flat-square" alt="Downloads"/>
+    </a>
+</p>
+
+<p align="center">
+    <a href="https://codebeat.co/projects/github-com-techprimate-tpobfuscation-master">
+        <img src="https://codebeat.co/badges/f56c8eca-c861-4a19-b4e4-84b77540c4ab"" alt="codebeat">
+    </a>
+    <a href="https://codecov.io/gh/techprimate/TPObfuscation">
+        <img src="https://img.shields.io/codecov/c/github/techprimate/TPObfuscation.svg?style=flat-square" alt="codecov">
+    </a>
+</p>
+
+<p align="center">
+    <b>
+    TPObfuscation is a obfuscation toolbox for Swift!
+    </b>
+</p>
+
+<p align="center">
+    <a href="#features">Features</a>
+  • <a href="#communication">Communication</a>
+  • <a href="#usage">Example</a>
+  • <a href="#usage">Usage</a>
+  • <a href="#installation">Installation</a>
+  • <a href="#credits">Credits</a>
+  • <a href="#license">License</a>
+</p>
+<h2 id='features' class='heading'>Features</h2>
+<div class="aside aside-todo">
+    <p class="aside-title">Todo</p>
+    full features list
+
+</div><ul>
+<li>You need more features? Checkout #Contribute</li>
+</ul>
+<h2 id='communication' class='heading'>Communication</h2>
+
+<ul>
+<li>If you <strong>found a bug</strong>, open an issue.</li>
+<li>If you <strong>have a feature request</strong>, open an issue.</li>
+<li>If you <strong>want to contribute</strong>, submit a pull request.</li>
+</ul>
+<h2 id='example' class='heading'>Example</h2>
+
+<p>To run the example project, run <code>pod try TPObfuscation</code></p>
+<h2 id='usage' class='heading'>Usage</h2>
+
+<p>Simply replace any string, e.g.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">foo</span> <span class="o">=</span> <span class="s">"super-secret-api-key"</span>
+</code></pre>
+
+<p>with the utility class:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">foo</span> <span class="o">=</span> <span class="kt">TPObStr</span><span class="o">.</span><span class="n">s</span><span class="o">.</span><span class="n">u</span><span class="o">.</span><span class="n">p</span><span class="o">.</span><span class="n">e</span><span class="o">.</span><span class="n">r</span><span class="o">.</span><span class="n">dash</span><span class="o">.</span><span class="n">s</span><span class="o">.</span><span class="n">e</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">r</span><span class="o">.</span><span class="n">e</span><span class="o">.</span><span class="n">t</span><span class="o">.</span><span class="n">dash</span><span class="o">.</span><span class="n">a</span><span class="o">.</span><span class="n">p</span><span class="o">.</span><span class="n">i</span><span class="o">.</span><span class="n">dash</span><span class="o">.</span><span class="n">k</span><span class="o">.</span><span class="n">e</span><span class="o">.</span><span class="n">y</span>
+</code></pre>
+<h2 id='installation' class='heading'>Installation</h2>
+<h3 id='swift-package-manager' class='heading'>Swift Package Manager</h3>
+
+<p>Once you have your Swift package set up, adding TPObfuscation as a dependency is as easy as adding it to the <code>dependencies</code> value of your <code>Package.swift</code>.</p>
+<pre class="highlight swift"><code><span class="nv">dependencies</span><span class="p">:</span> <span class="p">[</span>
+    <span class="o">.</span><span class="nf">package</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/techprimate/TPObfuscation"</span><span class="p">,</span> <span class="o">.</span><span class="nf">upToNextMajor</span><span class="p">(</span><span class="nv">from</span><span class="p">:</span> <span class="s">"1.1.0"</span><span class="p">))</span>
+<span class="p">]</span>
+</code></pre>
+<h3 id='cocoapods' class='heading'>CocoaPods</h3>
+
+<p><a href="http://cocoapods.org">CocoaPods</a> is a dependency manager for Cocoa projects. You can install it with the following command:</p>
+<pre class="highlight shell"><code><span class="nv">$ </span>gem <span class="nb">install </span>cocoapods
+</code></pre>
+
+<p>To integrate TPObfuscation into your Xcode project using CocoaPods, specify it in your <code>Podfile</code>:</p>
+<pre class="highlight ruby"><code><span class="n">source</span> <span class="s1">'https://github.com/CocoaPods/Specs.git'</span>
+<span class="n">platform</span> <span class="ss">:ios</span><span class="p">,</span> <span class="s1">'10.0'</span>
+<span class="n">use_frameworks!</span>
+
+<span class="n">target</span> <span class="s1">'&lt;Your Target Name&gt;'</span> <span class="k">do</span>
+    <span class="n">pod</span> <span class="s1">'TPObfuscation'</span>
+<span class="k">end</span>
+</code></pre>
+
+<p>Then, run the following command:</p>
+<pre class="highlight shell"><code><span class="nv">$ </span>pod <span class="nb">install</span>
+</code></pre>
+<h3 id='carthage' class='heading'>Carthage</h3>
+
+<p><a href="https://github.com/Carthage/Carthage">Carthage</a> is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.</p>
+
+<p>You can install Carthage with <a href="http://brew.sh/">HomeBrew</a> using the following command:</p>
+<pre class="highlight shell"><code><span class="nv">$ </span>brew update
+<span class="nv">$ </span>brew <span class="nb">install </span>carthage
+</code></pre>
+
+<p>To integrate TPObfuscation into your Xcode project using Carthage, specify it in your <code>Cartfile</code>:</p>
+<pre class="highlight plaintext"><code>github "techprimate/TPObfuscation" ~&gt; 1.1
+</code></pre>
+
+<p>Run <code>carthage update</code> to build the framework and drag the built <code>TPObfuscation.framework</code> into your Xcode project.</p>
+<h2 id='apps-using-tpobfuscation' class='heading'>Apps using TPObfuscation</h2>
+
+<p>If you are using TPObfuscation in your app and want to be listed here, simply create a pull request or let me know on twitter or via Github.
+We are always curious to see who is using our projects :)</p>
+<h2 id='credits' class='heading'>Credits</h2>
+
+<p>TPObfuscation is created and maintained by <a href="https://github.com/philprime">Philip Niedertscheider</a>, owned by <a href="https://www.github.com/techprimate">techprimate</a>.</p>
+
+<p align="center">
+    <a href="https://www.techprimate.com">
+        <img src="https://img.shields.io/badge/www-techprimate.com-lightgrey.svg?style=flat-square" alt="techprimate.com">
+    </a>
+    <a href="http://twitter.com/techprimate">
+        <img src="https://img.shields.io/badge/twitter-@techprimate-blue.svg?style=flat-square" alt="twitter">
+    </a>
+    <a href="https://instagram.com/techprimate">
+        <img src="https://img.shields.io/badge/instagram-@techprimate-c13584.svg?style=flat-square" alt="facebook">
+    </a>
+    <a href="https://facebook.com/techprimate">
+        <img src="https://img.shields.io/badge/facebook-@techprimate-blue.svg?style=flat-square" alt="facebook">
+    </a>
+</p>
+<h3 id='contributors' class='heading'>Contributors</h3>
+
+<p>We want to thank all <a href="https://github.com/techprimate/TPObfuscation/graphs/contributors">Contributors</a> for their support!</p>
+<h2 id='license' class='heading'>License</h2>
+
+<p>TPObfuscation is available under the MIT license. See the <a href="LICENSE">LICENSE</a> file for more info.</p>
+
+          </div>
+        </section>
+
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>© 2023 <a class="link" href="https://techprimate.com" target="_blank" rel="external noopener">techprimate GmbH</a>. All rights reserved.</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+    </section>
+  </body>
+</html>
