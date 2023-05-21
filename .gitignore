@@ -43,3 +43,7 @@ playground.xcworkspace
 # Carthage
 Carthage/Build
 Example/Pods
+
+# Ruby Bundler
+vendor
+.bundle
