@@ -3,7 +3,7 @@
 //  TPObfuscation
 //
 //  Created by Philip Niedertscheider on 20.12.2018
-//  Copyright (c) 2018 Philip Niedertscheider. All rights reserved.
+//  Copyright (c) 2023 techprimate GmbH. All rights reserved.
 //
 
 import UIKit

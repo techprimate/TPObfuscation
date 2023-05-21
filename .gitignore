@@ -39,7 +39,12 @@ playground.xcworkspace
 
 # Swift Package Manager
 .build/
+.swiftpm
 
 # Carthage
 Carthage/Build
 Example/Pods
+
+# Ruby Bundler
+vendor
+.bundle

@@ -3,7 +3,7 @@
 //  TPObfuscation
 //
 //  Created by Philip Niedertscheider on 20.12.2018.
-//  Copyright © 2018 techprimate GmbH & Co. KG. All rights reserved.
+//  Copyright © 2023 techprimate GmbH. All rights reserved.
 //
 
 // swiftlint:disable identifier_name
@@ -118,3 +118,5 @@ public extension String {
 private func UC(_ value: Int) -> String {
     return String(Character(UnicodeScalar(value)!))
 }
+
+// swiftlint:enable identifier_name

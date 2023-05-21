@@ -1,31 +1,16 @@
 PODS:
-  - Nimble (8.0.4)
-  - Quick (2.2.0)
-  - SwiftLint (0.37.0)
-  - TPObfuscation (1.0.0):
-    - SwiftLint
+  - TPObfuscation (1.1.0)
 
 DEPENDENCIES:
-  - Nimble
-  - Quick
   - TPObfuscation (from `../`)
-
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - Nimble
-    - Quick
-    - SwiftLint
 
 EXTERNAL SOURCES:
   TPObfuscation:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Nimble: 18d5360282923225d62b09d781f63abc1a0111fc
-  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
-  SwiftLint: c078a14d7d7ade75e5507795d185e3da41d844d2
-  TPObfuscation: 0a49ad2a518a91977fc861a758108a2f6ed7792b
+  TPObfuscation: 7ae451cfa54d577842238574b19c18bccc24fbdd
 
-PODFILE CHECKSUM: 29407bc8da5fc0161c6299e56bd2f37298a6ced4
+PODFILE CHECKSUM: 25f0cbb4ac2a3550ce0ffedd219bddf8de90faa6
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.12.1

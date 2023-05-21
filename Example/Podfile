@@ -5,11 +5,4 @@ use_frameworks!
 
 target "TPObfuscation_Example" do
     pod "TPObfuscation", :path => "../"
-
-    target "TPObfuscation_Tests" do
-        inherit! :search_paths
-
-        pod "Quick"
-        pod "Nimble"
-    end
 end

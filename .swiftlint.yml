@@ -16,6 +16,6 @@ identifier_name:
     error: 2
     warning: 2
 included:
-  - ../Source
-  - ../Example/TPObfuscation
+  - Source
+  - Example/TPObfuscation
 reporter: xcode

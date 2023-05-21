@@ -10,45 +10,20 @@
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		9C4BD33263F5B7E0D23A29E1 /* Pods_TPObfuscation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2084F32FFF2DBC18E912B5 /* Pods_TPObfuscation_Tests.framework */; };
-		AC9B9701953610C6DDD03B0D /* Pods_TPObfuscation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5250423F31A8EB7722371707 /* Pods_TPObfuscation_Example.framework */; };
-		D41C113421CBD04300B1A81E /* String+Obfuscation_Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C113321CBD04300B1A81E /* String+Obfuscation_Spec.swift */; };
+		BFF1EF6523BFBB3F80CE55AE /* Pods_TPObfuscation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7415B93B8D8C4A8BBDC18C /* Pods_TPObfuscation_Example.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = TPObfuscation;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		0D7415B93B8D8C4A8BBDC18C /* Pods_TPObfuscation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPObfuscation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		140C2A0840B8E26C4EC8503A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		353F3DA4186013D2F4E7207E /* Pods-TPObfuscation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPObfuscation_Example.debug.xcconfig"; path = "Target Support Files/Pods-TPObfuscation_Example/Pods-TPObfuscation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		494B3D2C05BE0E0B4E865393 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		515AD096DAAD0FDB5EC3081C /* Pods-TPObfuscation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPObfuscation_Example.debug.xcconfig"; path = "Target Support Files/Pods-TPObfuscation_Example/Pods-TPObfuscation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5250423F31A8EB7722371707 /* Pods_TPObfuscation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPObfuscation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* TPObfuscation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPObfuscation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* TPObfuscation_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPObfuscation_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D2084F32FFF2DBC18E912B5 /* Pods_TPObfuscation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPObfuscation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		868780ADCC89DC3A8EC6AE0B /* Pods-TPObfuscation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPObfuscation_Tests.release.xcconfig"; path = "Target Support Files/Pods-TPObfuscation_Tests/Pods-TPObfuscation_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B07AEBF36651BEE47D38E649 /* Pods-TPObfuscation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPObfuscation_Example.release.xcconfig"; path = "Target Support Files/Pods-TPObfuscation_Example/Pods-TPObfuscation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D41C113321CBD04300B1A81E /* String+Obfuscation_Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Obfuscation_Spec.swift"; sourceTree = "<group>"; };
-		D41C113721CBD88E00B1A81E /* .slather.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .slather.yml; path = ../../TPSVG/.slather.yml; sourceTree = "<group>"; };
-		D41C113821CBD88E00B1A81E /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; name = ".swift-version"; path = "../../TPSVG/.swift-version"; sourceTree = "<group>"; };
-		D41C113921CBD88E00B1A81E /* .jazzy.yaml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .jazzy.yaml; path = ../../TPSVG/.jazzy.yaml; sourceTree = "<group>"; };
-		D41C113A21CBD88E00B1A81E /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .swiftlint.yml; path = ../../TPSVG/.swiftlint.yml; sourceTree = "<group>"; };
-		D41C113B21CBD88E00B1A81E /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .travis.yml; path = ../../TPSVG/.travis.yml; sourceTree = "<group>"; };
-		D41C113C21CBD88E00B1A81E /* .codebeatignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .codebeatignore; path = ../../TPSVG/.codebeatignore; sourceTree = "<group>"; };
-		D41C113D21CBD88E00B1A81E /* TPSVG.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = TPSVG.podspec; path = ../../TPSVG/TPSVG.podspec; sourceTree = "<group>"; };
-		E1D4EB72E83F00BB8C988523 /* Pods-TPObfuscation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPObfuscation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TPObfuscation_Tests/Pods-TPObfuscation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB92981A6A9535CA9961AFD6 /* Pods-TPObfuscation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPObfuscation_Example.release.xcconfig"; path = "Target Support Files/Pods-TPObfuscation_Example/Pods-TPObfuscation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F3050C4FE63ACF2885A8EB0D /* TPObfuscation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TPObfuscation.podspec; path = ../TPObfuscation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
@@ -57,15 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9B9701953610C6DDD03B0D /* Pods_TPObfuscation_Example.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C4BD33263F5B7E0D23A29E1 /* Pods_TPObfuscation_Tests.framework in Frameworks */,
+				BFF1EF6523BFBB3F80CE55AE /* Pods_TPObfuscation_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +42,8 @@
 		0977152E8F464700EEAD458D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				515AD096DAAD0FDB5EC3081C /* Pods-TPObfuscation_Example.debug.xcconfig */,
-				B07AEBF36651BEE47D38E649 /* Pods-TPObfuscation_Example.release.xcconfig */,
-				E1D4EB72E83F00BB8C988523 /* Pods-TPObfuscation_Tests.debug.xcconfig */,
-				868780ADCC89DC3A8EC6AE0B /* Pods-TPObfuscation_Tests.release.xcconfig */,
+				353F3DA4186013D2F4E7207E /* Pods-TPObfuscation_Example.debug.xcconfig */,
+				EB92981A6A9535CA9961AFD6 /* Pods-TPObfuscation_Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -88,10 +53,9 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example */,
-				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				0977152E8F464700EEAD458D /* Pods */,
-				D6D84AEAE333681B4205AA5A /* Frameworks */,
+				62E12D3FC1A4894A5CA4604B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* TPObfuscation_Example.app */,
-				607FACE51AFB9204008FA782 /* TPObfuscation_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,33 +87,9 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-				D41C113321CBD04300B1A81E /* String+Obfuscation_Spec.swift */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				D41C113C21CBD88E00B1A81E /* .codebeatignore */,
-				D41C113921CBD88E00B1A81E /* .jazzy.yaml */,
-				D41C113721CBD88E00B1A81E /* .slather.yml */,
-				D41C113821CBD88E00B1A81E /* .swift-version */,
-				D41C113A21CBD88E00B1A81E /* .swiftlint.yml */,
-				D41C113B21CBD88E00B1A81E /* .travis.yml */,
-				D41C113D21CBD88E00B1A81E /* TPSVG.podspec */,
 				F3050C4FE63ACF2885A8EB0D /* TPObfuscation.podspec */,
 				140C2A0840B8E26C4EC8503A /* README.md */,
 				494B3D2C05BE0E0B4E865393 /* LICENSE */,
@@ -158,11 +97,10 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		D6D84AEAE333681B4205AA5A /* Frameworks */ = {
+		62E12D3FC1A4894A5CA4604B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5250423F31A8EB7722371707 /* Pods_TPObfuscation_Example.framework */,
-				7D2084F32FFF2DBC18E912B5 /* Pods_TPObfuscation_Tests.framework */,
+				0D7415B93B8D8C4A8BBDC18C /* Pods_TPObfuscation_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,12 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TPObfuscation_Example" */;
 			buildPhases = (
-				D909413CFBEC96506C2872C2 /* [CP] Check Pods Manifest.lock */,
+				105506276950D7A2818A22C0 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				D41C113621CBD14A00B1A81E /* Swift Lint */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				EDAA95DA2C805517DF2EAAD2 /* [CP] Embed Pods Frameworks */,
+				5A5093CAC071BAF9DC3EEC01 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,26 +128,6 @@
 			productReference = 607FACD01AFB9204008FA782 /* TPObfuscation_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* TPObfuscation_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TPObfuscation_Tests" */;
-			buildPhases = (
-				8E11FE6281A79B6B41F6C91B /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-				0EF84F414B7B04E0E49FA142 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
-			);
-			name = TPObfuscation_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* TPObfuscation_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -218,18 +136,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 1120;
-				ORGANIZATIONNAME = "techprimate GmbH & Co. KG";
+				ORGANIZATIONNAME = "techprimate GmbH";
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 1120;
 						ProvisioningStyle = Manual;
-					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 4N4ASZ575M;
-						LastSwiftMigration = 1120;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -248,7 +160,6 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* TPObfuscation_Example */,
-				607FACE41AFB9204008FA782 /* TPObfuscation_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,77 +174,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0EF84F414B7B04E0E49FA142 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TPObfuscation_Tests/Pods-TPObfuscation_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TPObfuscation_Tests/Pods-TPObfuscation_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8E11FE6281A79B6B41F6C91B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TPObfuscation_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D41C113621CBD14A00B1A81E /* Swift Lint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Swift Lint";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "echo \"info: Looking for SwiftLint in Pods folder: \" ${PODS_ROOT}\n\nif which swiftlint >/dev/null; then\n\"${PODS_ROOT}/SwiftLint/swiftlint\" --config \"../.swiftlint.yml\"\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-		D909413CFBEC96506C2872C2 /* [CP] Check Pods Manifest.lock */ = {
+		105506276950D7A2818A22C0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -355,7 +199,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EDAA95DA2C805517DF2EAAD2 /* [CP] Embed Pods Frameworks */ = {
+		5A5093CAC071BAF9DC3EEC01 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,6 +217,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TPObfuscation_Example/Pods-TPObfuscation_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D41C113621CBD14A00B1A81E /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"info: Looking for SwiftLint in Pods folder: \" ${PODS_ROOT}\n\nif which swiftlint >/dev/null; then\n\"${PODS_ROOT}/SwiftLint/swiftlint\" --config \"../.swiftlint.yml\"\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -384,23 +246,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D41C113421CBD04300B1A81E /* String+Obfuscation_Spec.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* TPObfuscation_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
@@ -521,7 +367,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 515AD096DAAD0FDB5EC3081C /* Pods-TPObfuscation_Example.debug.xcconfig */;
+			baseConfigurationReference = 353F3DA4186013D2F4E7207E /* Pods-TPObfuscation_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -539,7 +385,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B07AEBF36651BEE47D38E649 /* Pods-TPObfuscation_Example.release.xcconfig */;
+			baseConfigurationReference = EB92981A6A9535CA9961AFD6 /* Pods-TPObfuscation_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -552,46 +398,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1D4EB72E83F00BB8C988523 /* Pods-TPObfuscation_Tests.debug.xcconfig */;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 4N4ASZ575M;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPObfuscation_Example.app/TPObfuscation_Example";
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 868780ADCC89DC3A8EC6AE0B /* Pods-TPObfuscation_Tests.release.xcconfig */;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 4N4ASZ575M;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPObfuscation_Example.app/TPObfuscation_Example";
 			};
 			name = Release;
 		};
@@ -612,15 +418,6 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TPObfuscation_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

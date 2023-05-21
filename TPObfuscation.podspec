@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TPObfuscation"
-  s.version          = "1.1.0"
+  s.version          = "1.1.1"
   s.summary          = "TPObfuscation will hide Strings in Swift binaries."
   s.description      = <<-DESC
   TPObfuscation uses Swift unicode scalars to hide your credentials from binary string extraction.
@@ -15,5 +15,4 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
 
   s.source_files = "Source/Classes/**/*"
-  s.dependency "SwiftLint"
 end
