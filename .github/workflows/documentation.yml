@@ -3,8 +3,6 @@ name: Documentation
 on:
   release:
     types: [published]
-  push:
-    branches: [main]
 
 jobs:
   deploy_docs:
@@ -22,15 +20,9 @@ jobs:
         run: |
           bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
-      - name: Install Sourcekitten
-        run: brew install sourcekitten
       - name: Generate Documentation
         run: |
-          ./bin/docs.sh
-      - name: Fix Invalid URLs
-        run: |
-          cd docs
-          touch .nojekyll
+          bundle exec jazzy --config .jazzy.yaml
       - name: Commit files
         run: |
           cd docs
