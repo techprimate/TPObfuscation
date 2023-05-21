@@ -3,7 +3,7 @@
 //  TPObfuscation_Tests
 //
 //  Created by Philip Niedertscheider on 20.12.18.
-//  Copyright © 2018 techprimate GmbH & Co. KG. All rights reserved.
+//  Copyright © 2023 techprimate GmbH. All rights reserved.
 //
 
 import Quick
@@ -12,7 +12,7 @@ import Nimble
 
 class StringExtensionsSpec: QuickSpec {
 
-    override func spec() {
+    override class func spec() {
         describe("String Extension") {
 
             describe("special characters") {
